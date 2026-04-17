@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-/* eslint-disable no-unused-vars */
-import { Download } from 'lucide-react';
-import { Upload, Zap } from 'lucide-react';
+import { Upload, Zap, Download } from 'lucide-react';
 import { analyzeImage, generateImageVariation } from '../utils/apiHelpers';
 import ImageCard from './ImageCard';
 

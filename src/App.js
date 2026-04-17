@@ -8,7 +8,7 @@ function App() {
   const [activeTab, setActiveTab] = useState('text');
   const [statusMessage, setStatusMessage] = useState('');
   const [statusType, setStatusType] = useState('info');
-  const [isLoading, setIsLoading] = useState(false);
+  const [, setIsLoading] = useState(false); // eslint-disable-line no-unused-vars
 
   const updateStatus = (message, type = 'info') => {
     setStatusMessage(message);
